@@ -1,0 +1,31 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   HumanB.hpp                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mparra-s <mparra-s@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/11/04 15:18:57 by mparra-s          #+#    #+#             */
+/*   Updated: 2026/01/02 10:25:27 by mparra-s         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#ifndef  HUMANB_HPP
+#define  HUMANB_HPP
+
+#include "Weapon.hpp"
+
+class HumanB
+{
+    private:
+        std::string name;
+        Weapon *weap; 
+    public:
+        HumanB(std::string name);
+        ~HumanB();
+        void attack();
+        
+        void setHumanWeaponB(Weapon &weap);
+};
+
+#endif
