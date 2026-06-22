@@ -38,16 +38,16 @@ This repository includes the following modules:
 ## Repository Structure
 
 Each module is contained in its own directory:
-Module_00/
-Module_01/
-Module_02/
-Module_03/
-Module_04/
-Module_05/
-Module_06/
-Module_07/
-Module_08/
-Module_09/
+- Module_00/
+- Module_01/
+- Module_02/
+- Module_03/
+- Module_04/
+- Module_05/
+- Module_06/
+- Module_07/
+- Module_08/
+- Module_09/
 
 Inside each directory, exercises are organized according to the subject specifications provided by 42.
 
